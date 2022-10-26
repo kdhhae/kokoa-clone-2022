@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Noto+Sans+KR:wght@300&family=Open+Sans:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"); 
 @import "reset.css";
 @import "variable.css";
 /*components*/
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
+@import "components/user-components.css";
 /*screens*/ 
 @import "screens/login.css";
 @import "screens/friends.css";
@@ -12,5 +13,5 @@
 body{
     font-family: 'Open Sans', sans-serif;
     color: #2e363e;
-height: 1000vh;}
+;}
 
